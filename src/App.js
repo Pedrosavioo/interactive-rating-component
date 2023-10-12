@@ -9,17 +9,17 @@ export default function App() {
         <div className='icon'>
           <img src={icon}/>
         </div>
-        <h1>How did we do?</h1>
-        <p>Please let us know how we did with your support request. All feedback is appreciated 
+        <h1 className='mt-2'>How did we do?</h1>
+        <p className='mt-1'>Please let us know how we did with your support request. All feedback is appreciated 
     to help us improve our offering!</p>
-        <div className='feedback'>
+        <div className='feedback mt-2'>
           <div className='nota'>1</div>
           <div className='nota'>2</div>
           <div className='nota'>3</div>
           <div className='nota'>4</div>
           <div className='nota'>5</div>
         </div>
-        <div className='submit'>Submit</div>
+        <div className='submit mt-2'>Submit</div>
       </div>
     </div>
   );

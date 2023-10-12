@@ -15,8 +15,10 @@
 }
 
 .container{
+  width: 380px;
   background: hsl(217, 30%, 12%);
-  padding: 1rem;
+  padding: 2rem;
+  border-radius: 2rem;
 }
 
 .icon {
@@ -27,10 +29,14 @@
   border-radius: 50%;
 }
 
+.container p{
+  font-family: overpass;
+  color: #928686;
+}
+
 .feedback {
   display: flex;
-  justify-content: center;
-  gap: 1rem;
+  justify-content: space-between;
 }
 
 .nota {
@@ -39,10 +45,35 @@
   background: var(--Dark-Blue);
   border-radius: 50%;
   text-align: center;
+  cursor: pointer;
+}
+
+.nota:hover{
+  transition: 0.5s;
+  background: var(--Orange);
+  color: var(--White);
 }
 
 .submit {
   text-transform: uppercase;
   background: var(--Orange);
   color: var(--White);
+  text-align: center;
+  font-weight: 700;
+  padding: 1rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.submit:hover{
+  background: var(--White);
+  color: var(--Orange);
+  transition: 0.5s;
+}
+
+/* booster css */
+.mt-1{
+  margin-top: 1rem;
+}.mt-2{
+  margin-top: 2rem;
 }
