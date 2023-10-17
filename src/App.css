@@ -14,11 +14,27 @@
   justify-content: center;
 }
 
+.home{
+  display: none;
+}
+
+
 .container{
   width: 380px;
   background: hsl(217, 30%, 12%);
   padding: 2rem;
   border-radius: 2rem;
+}
+
+.thankYouState{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.thankYouState h2{
+  color:  var(--White);
 }
 
 .icon {
@@ -29,9 +45,19 @@
   border-radius: 50%;
 }
 
-.container p{
-  font-family: overpass;
+.primary-text{
   color: #928686;
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+.second-text{
+  background: var(--Dark-Blue);
+  color: var(--Orange);
+  padding: 0.5rem;
+  border-radius: 1rem;
 }
 
 .feedback {
